@@ -10,6 +10,10 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(20),
     margin: theme.spacing(1),
   },
+  subtitle: {
+    color: "tan",
+    marginBottom: "3rem",
+  },
   typedContainer: {
     position: "absolute",
     top: "50%",
@@ -28,7 +32,7 @@ const Header = () => {
       <Grid container justify="center">
         <Avatar className={classes.avatar} src={profile} alt="Youzhi" />
       </Grid>
-      <Typography variant="h4">
+      <Typography className={classes.subtitle} variant="h4">
         <Typed
           strings={[
             "I am Youzhi Hu",
