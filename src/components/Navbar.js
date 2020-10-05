@@ -21,17 +21,24 @@ import {
   Apps,
   ContactMail,
 } from "@material-ui/icons";
+import avatar from "../assets/img/avatar.png";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
     background: "#511",
     height: "100%",
   },
+  avatar: {
+    display: "block",
+    margin: "0.5rem auto",
+    width: theme.spacing(13),
+    height: theme.spacing(13),
+  },
   listItem: {
     color: "tan",
   },
-});
+}));
 
 const menuItems = [
   {
@@ -64,7 +71,7 @@ const Navbar = () => {
       component="div"
       onClick={toggleSlider(slider, false)}
     >
-      <Avatar />
+      <Avatar className={classes.avatar} src={avatar} alt="Youzhi Hu" />
       <Divider />
       <List>
         {menuItems.map((item, key) => (
@@ -91,7 +98,11 @@ const Navbar = () => {
             <Typography variant="h5" style={{ color: "tan" }}>
               Home
             </Typography>
-            <MobileRightMenueSlider anchor="right" open={state.right}>
+            <MobileRightMenueSlider
+              anchor="right"
+              open={state.right}
+              onClose={toggleSlider("right", false)}
+            >
               {sideList("right")}
             </MobileRightMenueSlider>
           </Toolbar>
