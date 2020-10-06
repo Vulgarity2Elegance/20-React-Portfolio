@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   AppBar,
   Toolbar,
@@ -44,18 +45,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
+    listPath: "/",
   },
   {
     listIcon: <AssignmentInd />,
     listText: "Resume",
+    listPath: "/resume",
   },
   {
     listIcon: <Apps />,
     listText: "Portfolio",
+    listPath: "/portfolio",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
+    listPath: "/contact",
   },
 ];
 
@@ -75,7 +80,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((item, key) => (
-          <ListItem button key={key}>
+          <ListItem button key={key} component={Link} to={item.listPath}>
             <ListItemIcon className={classes.listItem}>
               {item.listIcon}
             </ListItemIcon>
