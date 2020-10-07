@@ -1,21 +1,7 @@
 import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import {
-  Box,
-  Button,
-  Divider,
-  Grid,
-  List,
-  ListItem,
-  ListItemAvatar,
-  ListItemText,
-  TextField,
-  Typography,
-} from "@material-ui/core";
+import { Box, Button, Grid, TextField, Typography } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
@@ -29,10 +15,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "1rem",
     color: "tomato",
     borderColor: "tomato",
-  },
-  list: {
-    color: "tan",
-    justifyContent: "center",
   },
 }));
 
@@ -77,10 +59,9 @@ const Contact = () => {
             contact me...
           </Typography>
           <Grid
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-            }}
+            item
+            xs={12}
+            style={{ display: "flex", justifyContent: "space-between" }}
           >
             <InputField
               label="Name"
@@ -121,30 +102,6 @@ const Contact = () => {
           >
             submit
           </Button>
-          <Grid container justify="center">
-            <List className={classes.list}>
-              <ListItem>
-                <ListItemAvatar>
-                  <LocationOnIcon />
-                </ListItemAvatar>
-                <ListItemText primary="Location: Turramurra, Sydney, NSW 2074" />
-              </ListItem>
-              <Divider variant="inset" component="li" />
-              <ListItem>
-                <ListItemAvatar>
-                  <EmailIcon />
-                </ListItemAvatar>
-                <ListItemText primary="Email: jyzhu0101@gmail.com" />
-              </ListItem>
-              <Divider variant="inset" component="li" />
-              <ListItem>
-                <ListItemAvatar>
-                  <PhoneIphoneIcon />
-                </ListItemAvatar>
-                <ListItemText primary="Phone: +61 452 539 401" />
-              </ListItem>
-            </List>
-          </Grid>
         </Box>
       </Grid>
     </Box>
