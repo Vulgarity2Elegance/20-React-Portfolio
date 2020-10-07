@@ -6,8 +6,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(20),
-    height: theme.spacing(20),
+    width: theme.spacing(16),
+    height: theme.spacing(16),
     margin: theme.spacing(1),
   },
   subtitle: {
@@ -32,7 +32,7 @@ const Header = () => {
       <Grid container justify="center">
         <Avatar className={classes.avatar} src={profile} alt="Youzhi" />
       </Grid>
-      <Typography className={classes.subtitle} variant="h4">
+      <Typography className={classes.subtitle} variant="button">
         <Typed
           strings={[
             "I am Youzhi Hu",
