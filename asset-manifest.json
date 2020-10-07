@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/20-React-Portfolio/static/css/main.2808887c.chunk.css",
+    "main.js": "/20-React-Portfolio/static/js/main.f20553f6.chunk.js",
+    "main.js.map": "/20-React-Portfolio/static/js/main.f20553f6.chunk.js.map",
+    "runtime-main.js": "/20-React-Portfolio/static/js/runtime-main.7bf02505.js",
+    "runtime-main.js.map": "/20-React-Portfolio/static/js/runtime-main.7bf02505.js.map",
+    "static/js/2.f8d12978.chunk.js": "/20-React-Portfolio/static/js/2.f8d12978.chunk.js",
+    "static/js/2.f8d12978.chunk.js.map": "/20-React-Portfolio/static/js/2.f8d12978.chunk.js.map",
+    "index.html": "/20-React-Portfolio/index.html",
+    "precache-manifest.6bb4bcef5ba067ba7286ae0a814ccc48.js": "/20-React-Portfolio/precache-manifest.6bb4bcef5ba067ba7286ae0a814ccc48.js",
+    "service-worker.js": "/20-React-Portfolio/service-worker.js",
+    "static/css/main.2808887c.chunk.css.map": "/20-React-Portfolio/static/css/main.2808887c.chunk.css.map",
+    "static/js/2.f8d12978.chunk.js.LICENSE.txt": "/20-React-Portfolio/static/js/2.f8d12978.chunk.js.LICENSE.txt",
+    "static/media/Weather-Dashboard.gif": "/20-React-Portfolio/static/media/Weather-Dashboard.b70bb4df.gif",
+    "static/media/Youzhi Hu - CV.pdf": "/20-React-Portfolio/static/media/Youzhi Hu - CV.5fbe4c9f.pdf",
+    "static/media/Youzhi Hu - CV.docx": "/20-React-Portfolio/static/media/Youzhi Hu - CV.71145132.docx",
+    "static/media/avatar.png": "/20-React-Portfolio/static/media/avatar.fb7c963a.png",
+    "static/media/App.css": "/20-React-Portfolio/static/media/bg-img.70fd18ca.png",
+    "static/media/codeQuiz.gif": "/20-React-Portfolio/static/media/codeQuiz.1fef1bbd.gif",
+    "static/media/foodieCrawl.gif": "/20-React-Portfolio/static/media/foodieCrawl.990e8d59.gif",
+    "static/media/noteTaker.gif": "/20-React-Portfolio/static/media/noteTaker.7a63bcc6.gif",
+    "static/media/profile.png": "/20-React-Portfolio/static/media/profile.ccedad0d.png",
+    "static/media/quarantineChef.png": "/20-React-Portfolio/static/media/quarantineChef.372e8cdf.png",
+    "static/media/workoutTracker.png": "/20-React-Portfolio/static/media/workoutTracker.8c6b379a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bf02505.js",
+    "static/js/2.f8d12978.chunk.js",
+    "static/css/main.2808887c.chunk.css",
+    "static/js/main.f20553f6.chunk.js"
+  ]
+}
